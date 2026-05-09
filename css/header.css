@@ -1,3 +1,6 @@
+.header {
+  border-bottom: 1px solid #2e2f42;
+}
 .header .logo {
   color: #2e2f42;
 }
@@ -19,4 +22,29 @@
 .contact a:hover,
 .contact a:focus {
   color: #404bbf;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.header-nav {
+  flex-grow: 1;
+}
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
 }
