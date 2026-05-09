@@ -1,0 +1,22 @@
+.header .logo {
+  color: #2e2f42;
+}
+.nav-list a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.nav-list a:hover,
+.nav-list a:focus {
+  color: #404bbf;
+}
+.contact a {
+  color: inherit;
+  line-height: 1.5;
+  font-style: normal;
+}
+.contact a:hover,
+.contact a:focus {
+  color: #404bbf;
+}
