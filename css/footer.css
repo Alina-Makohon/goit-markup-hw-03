@@ -5,7 +5,16 @@
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .footer .logo {
   color: #f4f4fd;
+}
+.footer-container {
+  padding: 100px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1158px;
+  justify-content: flex-start;
 }

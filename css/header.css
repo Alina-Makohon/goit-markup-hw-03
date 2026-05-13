@@ -3,6 +3,7 @@
 }
 .header .logo {
   color: #2e2f42;
+  margin-right: 76px;
 }
 .nav-list a {
   font-weight: 500;
@@ -29,6 +30,7 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  padding: 0 15px;
 }
 .header-nav {
   flex-grow: 1;

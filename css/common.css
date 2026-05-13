@@ -10,6 +10,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
+  padding-inline-start: 0;
 }
 h1,
 h2,
@@ -49,5 +50,5 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15;
+  padding: 120px 15px;
 }
