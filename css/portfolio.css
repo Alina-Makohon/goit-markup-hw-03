@@ -5,8 +5,6 @@
 .product-type {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-bottom: 32px;
 }
 .portfolio-title {
   color: #2e2f42;
@@ -15,14 +13,23 @@
 .portfolio-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
   max-width: 1128px;
 }
 .product-name {
+  margin-bottom: 8px;
+}
+.product-info {
+  padding-bottom: 32px;
   padding-top: 32px;
   padding-left: 16px;
-  margin-bottom: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+.product-photo {
+  display: block;
 }
